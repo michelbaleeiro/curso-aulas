@@ -12,6 +12,7 @@ a:hover {
   color: unset;
 }
 
+.generic-section {
   min-height: 300px;
   padding: 40px 20px;
 }
