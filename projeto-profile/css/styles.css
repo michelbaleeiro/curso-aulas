@@ -121,7 +121,7 @@ footer {
     height: 32px;
     margin: 10px;
 }
-
+/* Tratando a responsividade */
 @media(min-width:576px) {
     html {
         font-size: 20px;
@@ -131,5 +131,25 @@ footer {
 @media(min-width:768px) {
     html {
         font-size: 24px; /*Como a medida da fonte é baseada em rem, foi calculado 24px para cada rem */
+    }
+    .portfolio-item {
+        width: 280px;
+    }
+
+    .nav-container {
+        display: flex;
+    }
+
+    .nav-main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-brand {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .menu-items {
+        font-size: 18px;
     }
 }
