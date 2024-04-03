@@ -127,3 +127,9 @@ footer {
         font-size: 20px;
     }
 }
+
+@media(min-width:768px) {
+    html {
+        font-size: 24px; /*Como a medida da fonte é baseada em rem, foi calculado 24px para cada rem */
+    }
+}
